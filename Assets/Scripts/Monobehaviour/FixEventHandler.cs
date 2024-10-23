@@ -23,9 +23,6 @@ public class FixEventHandler : MonoBehaviour
     public GameObject fixEvent;
     public FixEventHandler fixEventHandler;
 
-    public GameObject prompts;
-    public GameObject bottomBar;
-
     [System.Serializable]
     public struct Card
     {
@@ -134,14 +131,11 @@ public class FixEventHandler : MonoBehaviour
             Debug.Log("Game Finished");
 
             logicManager.increaseKnowledgeStat(knowledgeStatIncrease);
+            logicManager.playFixScene();
+            logicManager.changeDay();
+
             fixEvent.SetActive(false);
             fixEventHandler.enabled = false;
-
-            bottomBar.SetActive(true);
-            prompts.SetActive(true);
-
-            logicManager.day++;
-            logicManager.changeDay();
         }
     }
 

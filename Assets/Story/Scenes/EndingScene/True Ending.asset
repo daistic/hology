@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576adf703c32dcd4ab9598fdcd796e83, type: 3}
+  m_Name: True Ending
+  m_EditorClassIdentifier: 
+  Sentences:
+  - text: hm?
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: where is she? i have to find her today is the submission day!
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: it seems that she is around here somewhere
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: '*honk*'
+    speaker: {fileID: 11400000, guid: b100d8fa5d37b5344abb6169b95de61a, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: oh shi-
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: '*crash*'
+    speaker: {fileID: 11400000, guid: b100d8fa5d37b5344abb6169b95de61a, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: huh, i'm still alive?
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: ma..ss.ter
+    speaker: {fileID: 11400000, guid: 477747bc3fece2247b7cd80c0e47f984, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: '*gasp*'
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: why did you save me i didn't programmed you to do that
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: t..han..k y..ou
+    speaker: {fileID: 11400000, guid: 477747bc3fece2247b7cd80c0e47f984, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: ...
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: apparently, that robot was a punching bag
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: it's original owner came forward and asked to take it back
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: i saw it just yesterday. The robot is used to be a slave by the owner
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: it got overworked and just broke one day
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: there's nothing i can do about it
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: ==== true ending ====
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
+  background: {fileID: 21300000, guid: f4b9a22842d779a459048c285110459d, type: 3}
+  nextScene: {fileID: 0}

@@ -16,26 +16,38 @@ MonoBehaviour:
   - text: '*sigh*'
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
     gameSceneMover: 
+    isBackToMain: 0
   - text: The deadline is in 5 days...
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
     gameSceneMover: 
+    isBackToMain: 0
   - text: I ended up asking for a friend's favor but...
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
     gameSceneMover: 
+    isBackToMain: 0
   - text: '%6*(*^9 uwu ....'
     speaker: {fileID: 11400000, guid: 477747bc3fece2247b7cd80c0e47f984, type: 2}
     sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
     gameSceneMover: 
-  - text: Something wrong with this AI!!!
+    isBackToMain: 0
+  - text: Something is wrong with this AI!!!
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
     gameSceneMover: 
+    isBackToMain: 0
   - text: I need to fix it!
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
+    backgroundSprite: {fileID: 0}
     gameSceneMover: Main
-  background: {fileID: 0}
+    isBackToMain: 0
+  background: {fileID: 21300000, guid: 7179543bb4003fc4b9e3277c9302e8cc, type: 3}
   nextScene: {fileID: 0}

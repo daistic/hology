@@ -6,8 +6,12 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public StoryScene currentScene;
+
     public BottomController bottomBar;
     public SceneController sceneController;
+    public LogicManagerScript logicManager;
+
+    public GameObject thankYouMassage;
 
     void OnEnable()
     {
@@ -22,21 +26,36 @@ public class SceneController : MonoBehaviour
             {
                 if (bottomBar.isLastSentence())
                 {
-                    if (bottomBar.isGameSceneMover())
+                    if (!logicManager.deadlineDay())
                     {
-                        SceneManager.LoadScene(bottomBar.getGameSceneName(), LoadSceneMode.Single);
-                    } 
-                    
-                    else if (bottomBar.isBacktoMain())
+                        if (bottomBar.isGameSceneMover())
+                        {
+                            SceneManager.LoadScene(bottomBar.getGameSceneName(), LoadSceneMode.Single);
+                        }
+
+                        else if (bottomBar.isBacktoMain())
+                        {
+                            logicManager.mainMode();
+                            sceneController.enabled = false;
+                        }
+
+                        else
+                        {
+                            sceneController.enabled = false;
+                        }
+                    }
+
+                    else if (!logicManager.notPlayedEnding())
                     {
-                        
+                        sceneController.enabled = false;
+                        logicManager.checkEnding();
                     }
 
                     else
                     {
                         sceneController.enabled = false;
+                        thankYouMassage.SetActive(true);
                     }
-
                 } 
                 
                 else

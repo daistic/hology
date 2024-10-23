@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BottomController : MonoBehaviour
 {
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
+    public Image characterSprite;
+    public Image backgroundSprite;
 
     private int sentenceIndex = -1;
     public StoryScene currentScene;
@@ -29,6 +32,8 @@ public class BottomController : MonoBehaviour
     {
         typingCoroutine = StartCoroutine(TypeText(currentScene.Sentences[++sentenceIndex].text));
         personNameText.text = currentScene.Sentences[sentenceIndex].speaker.speakerName;
+        backgroundSprite.sprite = currentScene.background;
+        //characterSprite.sprite = currentScene.Sentences[sentenceIndex].sprite;
     }
 
     public void FinishSentence()
