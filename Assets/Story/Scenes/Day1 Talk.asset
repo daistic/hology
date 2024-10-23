@@ -10,32 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 576adf703c32dcd4ab9598fdcd796e83, type: 3}
-  m_Name: prologue
+  m_Name: Day1 Talk
   m_EditorClassIdentifier: 
   Sentences:
-  - text: '*sigh*'
+  - text: I never ask...
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
     gameSceneMover: 
-  - text: The deadline is in 5 days...
+    isBackToMain: 0
+  - text: Why do you have a physcial form?
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
     gameSceneMover: 
-  - text: I ended up asking for a friend's favor but...
-    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
-    sprite: {fileID: 0}
-    gameSceneMover: 
-  - text: '%6*(*^9 uwu ....'
+    isBackToMain: 0
+  - text: 01110011 01101111 01110010 01110010 01111001
     speaker: {fileID: 11400000, guid: 477747bc3fece2247b7cd80c0e47f984, type: 2}
     sprite: {fileID: 0}
     gameSceneMover: 
-  - text: Something wrong with this AI!!!
+    isBackToMain: 0
+  - text: ...
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
     gameSceneMover: 
-  - text: I need to fix it!
+    isBackToMain: 0
+  - text: We are not going anywhere with this
     speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
     sprite: {fileID: 0}
-    gameSceneMover: Main
+    gameSceneMover: 
+    isBackToMain: 0
+  - text: ' '
+    speaker: {fileID: 11400000, guid: fe8d482de90f64347a38d242a534f9bd, type: 2}
+    sprite: {fileID: 0}
+    gameSceneMover: 
+    isBackToMain: 0
   background: {fileID: 0}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 9ab2cfc73f2c8874fb722d234815f569, type: 2}

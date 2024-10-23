@@ -53,6 +53,21 @@ public class BottomController : MonoBehaviour
         return sentenceIndex + 1 == currentScene.Sentences.Count;
     }
 
+    public bool isGameSceneMover()
+    {
+        return currentScene.Sentences[sentenceIndex].gameSceneMover != "";
+    }
+
+    public bool isBacktoMain()
+    {
+        return currentScene.Sentences[sentenceIndex].isBackToMain;
+    }
+
+    public string getGameSceneName()
+    {
+        return currentScene.Sentences[sentenceIndex].gameSceneMover;
+    }
+
     private IEnumerator TypeText(string text)
     {
         barText.text = "";
